@@ -1,0 +1,171 @@
+body {margin: 0; padding: 0;}
+
+h1 {font-family:Arial, Helvetica, sans-serif;
+	font-size:160%; line-height:1.1em;
+	}
+	
+h4 {font-size:70%; font-weight:bold;}
+	
+img {border: 0;}
+
+#banner, #pdf {visibility:hidden; position:absolute; top:-35px;}
+
+#topnav a {
+	display:block; width:65px; height:33px; position:absolute; top:78px;
+	margin: 0; padding: 4px 0 0 0; line-height:2.5em;
+	font-family:Arial, Helvetica, sans-serif; font-size:75%; letter-spacing:-0.5px;
+	text-decoration:none; font-style:normal; text-align:center;
+	background-color:#333333; color:black;
+	}
+	
+#topnav a:hover {
+	background: #999999;
+	color:black;
+	}
+	
+#topnavaccess a {
+	display:block; width:75px; height:33px; position:absolute; top:78px;
+	margin: 0; padding: 4px 0 0 0;
+	font-family:Arial, Helvetica, sans-serif; font-size:75%; letter-spacing:-1px;
+	text-decoration:none; font-style:normal; text-align:center;
+	background-color:#333333; color:white;
+	}
+	
+#p_twentyfiveton a#twentyfiveton,
+#p_fiftyton a#fiftyton,
+#p_fiftyfiveton a#fiftyfiveton,
+#p_sixtyton a#sixtyton,
+#p_sixtyfiveton a#sixtyfiveton,
+#p_seventyfiveton a#seventyfiveton,
+#p_onehundredton a#onehundredton,
+#p_onehundredtonv a#onehundredtonv,
+#p_onehundredtwentyton a#onehundredtwentyton
+	{
+	background-color:#999999; color:black;
+	}
+
+#twentyfiveton, #fiftyton, #fiftyfiveton,
+#sixtyton, #sixtyfiveton, #seventyfiveton,
+#onehundredton, #onehundredtonv, #onehundredtwentyton {
+	visibility:hidden; background-color:white; color:white;
+	}
+
+#overpunch, #notch, #pipe, #bar, #multi,
+#brake, #coper, #anglenotch, #pedestal, #back, #gauging,
+#magnetic, #urethane, #twofortyone {
+	visibility:hidden;
+	}
+
+#build, #ironworkers, #access, #demo, #contact, #index {
+	visibility:hidden; color:white; text-decoration:none;
+	}	
+
+
+	
+#summarybox
+	{
+	position: absolute; top:30px; left:350px; width:450px;
+	font-family:Arial, Helvetica, sans-serif; font-size:120%; line-height:1.2em;
+	}
+	
+#history
+	{position:absolute; top:30px; left:20px; width:250px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%;
+	}
+	
+#summarybox2, #summarybox3
+	{position:absolute; top:50px; left:300px; width:290px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%;
+	line-height:1.3em;
+	}
+	
+#summarybox4
+	{position:absolute; top:300px; left:20px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%;
+	}
+	
+#newfeaturebox
+	{
+	position:absolute; left:320px; top:30px; color:#CC0000;
+	}
+	
+#list {
+	position:absolute; top:160px; left:350px; text-align:left;
+	font-family:Arial, Helvetica, sans-serif; font-size:125%; font-weight:bold; color:#CC0000;
+	}
+
+
+	
+#machine {position: absolute; top:15px; left:44px;}
+
+#machine_a {
+	visibility:hidden;
+	}
+
+
+#machine65, #machine100, #machine100v, #machine120 {
+	position: absolute; top:30px; left:15px;
+	}
+#accessimage {
+	position: absolute; top:50px; left:20px;}
+
+#accessory {position:absolute; top:50px; left:20px;}
+
+#guarddisclaimer {
+	position:absolute; top:320px; left:20px;
+	font-size:50%;
+	}
+	
+	
+#video, #videonote
+	{
+	visibility:hidden;
+	}
+
+
+#specstitle {
+	position:absolute; top:370px; left:300px; width:300px; height:18px;
+	background-color:#CCCCCC; text-align:center;
+	font-family:Arial, Helvetica, sans-serif; font-size:110%; font-weight:bold;
+	}	
+#specs {position: absolute; top: 410px; left: 30px;
+	width: 400px; padding: 1px;
+	font-size:90%; font-family: Arial, Helvetica, sans-serif;
+	}
+#specs2 {position: absolute; top: 410px; left: 430px;
+	width: 370px; padding: 1px;
+	font-size:90%; font-family: Arial, Helvetica, sans-serif
+	}
+
+.footer {position: absolute; top:569px; left:172px;
+	font-family:Arial, Helvetica, sans-serif;}
+
+
+#address {
+	font-size:65%;
+	font-family:Arial, Helvetica, sans-serif;}
+	
+#webaddress {visibility:hidden; color:white;}
+
+#printedwards {
+	position:absolute; top:900px; left:20px;	
+	font-family:Arial, Helvetica, sans-serif; font-size:60%;
+	line-height:1.2em;
+	}
+	
+#printedwards_b {
+	position:absolute; top:700px; left:20px;	
+	font-family:Arial, Helvetica, sans-serif; font-size:60%;
+	line-height:1.2em;
+	}
+	
+#printaddress {
+	position:absolute; top:285px; left: 360px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%;
+	line-height:1.2em;
+	}
+	
+.clear {
+	clear: both;
+	height: 1px;
+}

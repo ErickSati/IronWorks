@@ -1,0 +1,10 @@
+
+
+##Video formats for Edwards Websites##
+
+AddType video/ogg .ogm
+   AddType video/ogg .ogv
+   AddType audio/ogg .ogg
+   AddType video/mp4 .mp4
+   AddType video/webm .webm
+   AddType text/plain .srt

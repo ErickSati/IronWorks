@@ -1,0 +1,515 @@
+body {margin: 0; padding: 0;}
+
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.9em; line-height:.9em;
+	letter-spacing:-.04em;
+	}
+	
+.sub_italic
+	{
+	font-style:italic;
+	font-size:1.4em;
+	letter-spacing:-.02em;
+	}
+	
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:130%; line-height:1.1em; color:#CC0033;
+	}
+	
+h4 {font-size:70%; font-style:bold;}
+	
+img {border: 0;}
+
+a {
+	text-decoration:underline;
+	color:#CC0033;
+	}
+
+a:hover {
+	text-decoration:none;
+	color:#CC0033;
+	}
+	
+.style1 {
+	color:#CC0033;
+	}
+	
+.pic-right {
+	float:right;
+	margin-left:10px;
+	}
+	
+
+#banner {
+	background-color:#333333; width:100%;
+	position:absolute; top:10px; left:20px;
+	}
+
+#list {position:absolute; top:105px; left:550px; width:390px;
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif; font-weight:bold; 
+	font-size:1.2em;
+	line-height:1.2em; color:#CC0033;
+	letter-spacing:-.04em;
+	}
+	
+#topnav a {
+	display:block; width:65px; height:27px; position:absolute; top:58px;
+	margin: 0; padding: 6px 0 0 0;
+	font-family:Arial, Helvetica, sans-serif; font-size:75%; letter-spacing:-1px; line-height:85%;
+	text-decoration:none; font-style:normal; text-align:center; vertical-align:middle;
+	background-color:#333333; color:white;
+	}
+	
+#topnav-b a {
+	display:block; width:75px; height:27px; position:absolute; top:58px;
+	margin: 0; padding: 6px 0 0 0;
+	font-family:Arial, Helvetica, sans-serif; font-size:75%; letter-spacing:-1px; line-height:85%;
+	text-decoration:none; font-style:normal; text-align:center; vertical-align:middle;
+	background-color:#333333; color:white;
+	}
+	
+	
+#topnavaccess a, #topnavaccess_b a {
+	display:block; width:75px; height:33px;
+	margin: 0; padding: 6px 0 0 0;
+	font-family:Arial, Helvetica, sans-serif; font-size:.7em; letter-spacing:-.04em;
+	text-decoration:none; font-style:normal; text-align:center;
+	background-color:#333333; color:white;
+	}
+	
+#topnavaccess {
+	position:absolute; top:58px;
+	}
+	
+#topnavaccess_b {
+	position:absolute; left:340px; top:102px;
+	}	
+	
+	
+	
+#topnavaccess a:hover, #topnavaccess_b a:hover {
+	background: #999999;
+	color:black;
+	}
+	
+#topnav a:hover, #topnav-b a:hover {
+	background: #999999;
+	color:black;
+	}
+	
+#p_twentyfiveton a#twentyfiveton,
+#p_fortyton a#fortyton,
+#p_fiftyton a#fiftyton,
+#p_fiftyfiveton a#fiftyfiveton,
+#p_sixtyton a#sixtyton,
+#p_sixtyfiveton a#sixtyfiveton,
+#p_seventyfiveton a#seventyfiveton,
+#p_onehundredton a#onehundredton,
+#p_onehundredtonv a#onehundredtonv,
+#p_onehundredtwentyton a#onehundredtwentyton,
+#p_fiftytonmc a#fiftytonmc
+	{
+	background-color:#999999; color:black;
+	}
+	
+	
+#twentyfiveton {position:absolute; left:320px;}
+#fortyton {position:absolute; left:390px;}
+#fiftyton {position:absolute; left:460px;}
+#fiftyfiveton {position:absolute; left:530px;}
+#sixtyton {position:absolute; left:600px;}
+#sixtyfiveton {position:absolute; left:670px;}
+#seventyfiveton {position:absolute; left:740px;}
+#onehundredton {position:absolute; left:810px;}
+#onehundredtonv {position:absolute; left:880px;}
+#onehundredtwentyton {position:absolute; left:950px;}
+
+#overpunch, #pipe-tube {position:absolute; left:20px;}
+#pipe, #hydraul-access-pack {position:absolute; left:100px;}
+#coper, #portapower {position:absolute; left:180px;}
+#anglenotch, #twentytonshop {position:absolute; left:260px;}
+#multi, #fortytonshop {position:absolute; left:340px;}
+#brake {position:absolute; left:420px;}
+
+
+#pedestal {position:absolute; left:500px;}
+#back {position:absolute; left:580px;}
+#gauging {position:absolute; left:660px;}
+#gauging_b {position:absolute; left:740px;}
+#urethane {position:absolute; left:820px;}
+#twofortyone {position:absolute; left:900px;}
+
+#autocut {position:absolute; left:0px;}
+#electric {position:absolute; left:80px;}
+#stripper {position:absolute; left:160px;}
+#protractor {position:absolute; left:240px;}
+#turret-pipe {position:absolute; left:320px;}
+#punch-die {position:absolute; left:400px;}
+#rod-shear {position:absolute; left:480px;}
+
+
+
+
+#p_overpunch a#overpunch,
+#p_pipe a#pipe,
+#p_coper a#coper,
+#p_anglenotch a#anglenotch,
+#p_bar a#bar,
+#p_multi a#multi,
+#p_brake a#brake,
+#p_pedestal a#pedestal,
+#p_back a#back,
+#p_gauging a#gauging,
+#p_urethane a#urethane,
+#p_twofortyone a#twofortyone,
+#p_stripper a#stripper,
+#p_gauging_b a#gauging_b,
+#p_autocut a#autocut,
+#p_electric a#electric,
+#p_protractor a#protractor,
+#p_turret-pipe a#turret-pipe,
+#p_punch-die a#punch-die,
+#p_rod-shear a#rod-shear,
+#p_fiftytonmc a#fiftytonmc,
+#p_pipe-tube a#pipe-tube,
+#p_hydraul-access-pack a#hydraul-access-pack,
+#p_portapower a#portapower,
+#p_twentytonshop a#twentytonshop,
+#p_fortytonshop a#fortytonshop,
+#p_tube-bender-dies a#tube-bender-dies,
+#p_press-brake a#press-brake {
+	background-color:#999999; color:black;
+	}
+	
+	
+
+#bottomnav a {
+	display: block;
+	width: 140px; height:33px;
+	margin: 0; padding: 5px 0 0 0;
+	background: #333333;
+	font-family:Arial, Helvetica, sans-serif; font-size:75%; color:white;
+	text-decoration:none; text-align: center;
+	}
+#bottomnav a:hover {
+	background: #999999;
+	color:black;
+	}
+	
+	
+#p_build a#build,
+#p_ironworkers a#ironworkers,
+#p_eliteironworkers a#eliteironworkers,
+#p_access a#access,
+#p_demo a#demo,
+#p_hydraulic a#hydraulic,
+#p_contact a#contact
+	{
+	background-color:#999999; color:black;
+	}
+
+
+/*prev "build your own" link*/
+
+	
+#ironworkers {
+	position: absolute; top:450px; left:20px;
+	line-height:2.5em;
+	}
+	
+#eliteironworkers {
+	position: absolute; top:450px; left:165px;
+	line-height:normal;
+	}
+	
+#access {
+	position: absolute; top:493px; left:20px;
+	line-height:2.5em;
+	}
+	
+#demo {
+	position: absolute; top:493px; left:165px;
+	line-height:normal;
+	}
+
+#hydraulic {
+	position: absolute; top:536px; left:20px;
+	line-height:normal;
+	}
+	
+#contact {
+	position: absolute; top:536px; left:165px;
+	line-height:2.5em;
+	}
+	
+#index {
+	position: absolute; top:579px; left:20px;
+	line-height:2.5em;
+	}
+	
+/*prev "home" link
+#index {
+	position: absolute; top:525px; left:165px;
+	line-height:2.5em;
+	}
+*/
+	
+#summarybox
+	{
+	position: absolute; top:105px; left: 340px; width:220px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%; line-height:1em;
+	letter-spacing:-.04em;
+	}
+	
+#pdf
+	{
+	position: absolute; top:280px; left: 320px; width: 260px;
+	font-family:Arial, Helvetica, sans-serif; font-size:80%;
+	}
+	
+#summarybox2
+	{
+	position:absolute; top:170px; left:340px; width:630px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%; line-height:1.5em;
+	}
+	
+#history
+	{
+	position:absolute; top:130px; left:320px; width:700px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%; line-height:1.5em;
+	}
+	
+#summarybox3
+	{
+	position:absolute; top:170px; left:340px; width:630px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%; line-height:1.5em;
+	}
+	
+#summarybox4
+	{
+	position:absolute; top:320px; left:320px; width:380px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%; line-height:1.5em;
+	}
+	
+#summarybox5
+	{
+	position:absolute; top:70px; left:340px; width:700px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%; line-height:1.5em;
+	}
+	
+#summarybox5b
+	{
+	position:absolute; top:450px; left:340px; width:600px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%; line-height:1.5em;
+	}
+	
+#newfeaturebox
+	{
+	position:absolute; top:320px; left:720px; width:180px; background:#CCCCCC;
+	padding:1em; vertical-align:middle;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+	
+#summaryleft
+	{
+	position:absolute; top:90px; left:50px; width:250px;
+	font-family:Arial, Helvetica, sans-serif; font-size:90%; line-height:1.5em;
+	}
+
+#buildresults1
+	{
+	position:absolute; top:65px; left:340px;
+	width:300px; height:500px;
+	}
+	
+#buildresults2
+	{
+	position:absolute; top:65px; left:660px;
+	width:300px; height:500px;
+	}
+	
+#demotext1
+	{
+	position:absolute; top:90px; left:360px;
+	width:250px; line-height:1.3em;  text-align:center;
+	font-family:Arial, Helvetica, sans-serif; font-size:80%;
+	}
+
+#demoimage1
+	{
+	position: absolute;
+	top:70px;
+	left: 357px;
+	width: 200px;
+	}
+	
+	
+#demotext2
+	{
+	position:absolute; top:90px; left:700px;
+	width:250px; line-height:1.3em;  text-align:center;
+	font-family:Arial, Helvetica, sans-serif; font-size:80%;
+	}
+
+#demoimage2
+	{position: absolute; top:70px; left:700px; width:200px;
+	}
+	
+	
+#demoimage3
+	{
+	position:absolute; top:660px; left:357px;
+	width:200px;
+	}
+
+#demotext3
+	{
+	position:absolute; top:380px; left:357px;
+	width:250px; line-height:1.3em; text-align:center;
+	font-family:Arial, Helvetica, sans-serif; font-size:80%;
+	}
+	
+	
+#demotext4
+	{
+	position:absolute; top:380px; left:700px;
+	width:250px; line-height:1.3em;  text-align:center;
+	font-family:Arial, Helvetica, sans-serif; font-size:80%;
+	}
+
+#demoimage4
+	{position: absolute; top:660px; left:700px; width:200px;
+	}
+	
+#demotext5
+	{
+	position:absolute; top:670px; left:357px;
+	width:250px; line-height:1.3em; text-align:center;
+	font-family:Arial, Helvetica, sans-serif; font-size:80%;
+	}
+	
+	
+#demotext6
+	{
+	position:absolute; top:670px; left:700px;
+	width:250px; line-height:1.3em;  text-align:center;
+	font-family:Arial, Helvetica, sans-serif; font-size:80%;
+	}
+
+	
+#machine, #machine_a {position: absolute; top:55px; left:20px;}
+#accessimage {position: absolute; top:125px; left:40px;}
+#machine65, #machine100, #machine100v {position:absolute; top:60px; left:10px;}
+
+#machine-b {position: absolute; top:100px; left:40px;}
+
+#machine50 {position:absolute; top:60px; left:50px;}
+
+
+#accessory {position:absolute; top:110px; left:44px;}
+
+#guarddisclaimer
+	{
+	position:absolute; top:400px; left:40px;
+	font-family:Arial, Helvetica, sans-serif; font-size:70%;
+	color:#666666;
+	}
+
+
+#videoheader1, #videoheader2
+	{
+	position:absolute; top:420px; width:240px;
+	text-align:center; font-family:Arial, Helvetica, sans-serif;
+	font-size:80%; font-weight:bold;
+	}
+	
+#videoheader1
+	{
+	left:420px;
+	}
+#videoheader2
+	{
+	left:608px;
+	}
+
+
+#video
+	{
+	position:absolute; left:420px; top:440px;
+	width:250px; height:190px;
+	}
+	
+#videonote
+	{
+	position:absolute; top:460px; left:700px; width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic; color:#CC0033; font-size:85%;
+	line-height:1.2em;
+	}
+
+
+#specstitle {
+	position:absolute; top:320px; left:320px; width:625px; height:18px;
+	background-color:#CCCCCC; color:#333333; text-align:center;
+	font-family:Arial, Helvetica, sans-serif; font-size:110%; font-style:bold;
+	}	
+#specs {position: absolute; top: 335px; left: 320px;
+	width: 310px; padding: 1;
+	font-size:70%; font-family: Arial, Helvetica, sans-serif;
+	}
+#specs2 {position: absolute; top: 335px; left: 650px;
+	width: 300px; padding: 1;
+	font-size:70%; font-family: Arial, Helvetica, sans-serif
+	}
+	
+#specs3 {
+	width: 310px; padding: 1;
+	font-size:70%; font-family: Arial, Helvetica, sans-serif;
+	line-height:1.4em;
+	}
+	
+#specs3b {
+	float:right;
+	width: 310px; padding: 1;
+	font-size:70%; font-family: Arial, Helvetica, sans-serif;
+	line-height:1.4em;
+	}
+	
+#body-text {position: absolute; top:335px; left:380px;
+	width: 550px;
+	font-size:.9em; font-family: Arial, Helvetica, sans-serif;
+	line-height:1.4em;
+	}
+	
+	
+	
+	
+.tablehead {
+	font-size:120%; color: #666666;
+	}
+
+.footer {position: absolute; top:569px; left:172px;
+	font-family:Arial, Helvetica, sans-serif;}
+
+
+#address {
+	font-size:65%;
+	font-family:Arial, Helvetica, sans-serif;}
+	
+#printedwards, #printaddress, #printedwards_b {visibility:hidden; color:white;}
+	
+#webaddress {visibility:hidden; color:white;}
+
+
+.left {
+	margin: 10px 10px 5px 0;
+	float: left;
+	}
+
+.right {
+	margin: 10px 0 5px 10px;
+	float: right;
+	}

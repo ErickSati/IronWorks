@@ -269,6 +269,7 @@ p.intro{
 	}
 .gallery .intro{
 	margin:0;
+
 }
 
 .testimonialCase{
@@ -539,40 +540,16 @@ footer.other{
 	}
 
 #compLinks{
- 	display: flex;
-	flex-direction: row;
-	 justify-content:space-around;
-	width:100%;
-	margin-top:15px;
-	margin-bottom:.125em;
+	width:835px;
+	margin:15px auto 15px auto;
 	min-height:2em;
-	background-image: url("images/jpg/hammeredSteel.jpg");
 	}
 
-#specialLk{
-	float:left;
-	margin-left:1.5625em;
-	clear:left;
-	vertical-align:top
+.coLinkImg{
+	display: inline-block;
+	margin: 0 28px 0 28px;
 	}
 
-#espLk{
-	float:right;
-	margin-right:5.40625em;
-	vertical-align:top
-	}
-
-#truChkLk{
-	float:right;
-	margin-right:6.09375em;
-	vertical-align:top
-	}
-
-#miaLk{
-	float:right;
-	margin-right:1.5625em;
-	vertical-align:top
-	}
 
 p.copyright{
 	margin:0;
@@ -581,7 +558,6 @@ p.copyright{
 	color:#fff;
 	padding-top:10px;
 	padding-bottom:10px;
-
 	line-height:180%;
 	text-align:center;
 	text-decoration:none;
@@ -589,9 +565,8 @@ p.copyright{
 	}
 
 .copyright a:link{
-	color:#fff;:
-	font-weight;:
-	normal;
+	color:#fff;
+	font-weight:normal;
 	text-decoration:none
 	}
 
@@ -1251,14 +1226,14 @@ p.disclaimer{
 	}
 
 	#featuredImg a:link{
-	color:#000;
+	color:#fff;
 	text-decoration:none;
 	font-weight:700;
 	margin-bottom:0;
 	}
 
 #featuredImg a:visited,a:active,a:hover{
-	color:#000;
+	color:#fff;
 	text-decoration:none;
 	margin-bottom:0;
 	}

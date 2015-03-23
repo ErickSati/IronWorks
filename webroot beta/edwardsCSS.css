@@ -169,7 +169,7 @@ nav{
 	margin: 0 0 0 0;
 	padding-left: 0px;
 	background:#d71920;
-	height:1.875em;
+	height:32px;
 	position:relative;
 width: 100%;
 min-width: 835px;
@@ -236,12 +236,12 @@ min-width: 835px;
 	color:#000
 	}
 
-section.prodIntro{
+.prodIntro{
 	clear: both;
 	float:left;
 	margin:0;
 	width:100%;
-	height:575px;
+	height:inherit;
 	}
 
 .showcase{
@@ -267,6 +267,9 @@ p.intro{
 	color:#000;
 	margin: 20px 33px 20px 33px;
 	}
+.gallery .intro{
+	margin:0;
+}
 
 .testimonialCase{
 	min-height:200px;
@@ -394,8 +397,8 @@ p.homeIntro{
 	line-height: 18pt;
 	color:#000;
 	margin: 50px auto 50px auto;
-	text-align:left;
-	max-width: 900px
+	text-align:justify;
+	max-width: 800px
 	}
 
 .homeIntro a:link{
@@ -427,10 +430,11 @@ section.homeIntro{
 	}
 
 .redBullImg{
+	display: block;
 	width:25em;
 	height:10.5625em;
-	float:left;
-	margin-left:19.375em;
+	margin-left:auto;
+	margin-right: auto;
 	margin-bottom:1.25em
 	}
 
@@ -455,8 +459,8 @@ section.homeIntro{
 .rbcStamp{
 	margin-left:1em;
 	margin-right:1em;
-	height:7.5em;
-	width:7.5em
+	height:7em;
+	width:7em
 	}
 
 section.rbc{
@@ -491,10 +495,11 @@ section.rbc{
 	}
 
 .gearzImg{
+	display: block;
 	width:25em;
 	height:10.375em;
-	float:left;
-	margin-left:19.375em;
+	margin-left:auto;
+	margin-right: auto;
 	margin-bottom:1.25em
 	}
 
@@ -598,14 +603,13 @@ p.copyright{
 
 section.product{
 	display:inline-block;
-	margin: auto;
-	margin-left:1.5em;
-	width:95.3%;
+	margin: 0 2% 0 2%;
+	width:96%;
 	}
+
 
 h1{
 	font-family:"Copperplate Gothic Bold",Copperplate,Helvetica,Arial,sans-serif;
-
 	font-size:2.625em;
 	color:#000;
 	margin:.25em 0em .25em 0em;
@@ -622,14 +626,9 @@ h1.head {
 }
 
 .gallery{
-	float:left;
-	padding-top:0;
-	padding-bottom:.25em;
+	padding:0;
 	margin:0;
-	margin-top:0;
-	margin-bottom:.75em;
 	width:100%;
-	min-height:8em;
 	background-color:#fff;
 	}
 
@@ -637,7 +636,7 @@ h1.head {
 	display: inline-block;
 	float:left;
 	min-height:18.0625em;
-	width:243px;
+	width:230px;
 	height:  289px;
 	background-color:#fff;
 	margin-top:0;
@@ -1526,7 +1525,7 @@ h5{
 	font-family:Helvetica,Arial,sans-serif;
 	font-size:30px;
 	color:#404040;
-	margin:30px 33px 30px 34px;
+	margin:30px 0px 30px 0px;
 	text-align:left;
  	border-bottom-style: solid;
  	border-bottom-color: #ed1c24;
@@ -1632,6 +1631,11 @@ p.prodDesc{
 h3.prodTag{
 	font-size:1.8em;
 	}
+
+section.prodIntro{
+	
+
+}
 
 
 }

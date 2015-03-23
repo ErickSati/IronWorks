@@ -83,7 +83,7 @@ a:active,a:hover{
 	}
 
 header.mast{
-	height:100px;
+	height:60px;
 	width:100%;
 	min-width:835px;
 	background-image: url("images/jpg/hammeredSteel.jpg");
@@ -100,12 +100,12 @@ header.mast{
 	}
 
 #navImg{
-	height:12em;
-	width:12em;
+	height:14em;
+	width:14em;
 	position: absolute;
 	float:left;
 	clear: both;
-	margin-left:-30px;
+	margin-left:-234px;
 	margin-top:0px;
 	z-index:1000;
 	}
@@ -168,11 +168,10 @@ nav{
 #navBar{
 	margin: 0 0 0 0;
 	padding-left: 0px;
-	background:#d71920;
+	background:#b6191f;
 	height:1.875em;
 	position:relative;
 width: 100%;
-min-width: 835px;
 	z-index:10;
 
 	}
@@ -204,7 +203,7 @@ min-width: 835px;
 	}
 
 #nav a{
-	background:#d71920;
+	background:#b6191f;
 	text-decoration:none;
 	font-family:Helvetica,Arial,sans-serif;
 	font-weight:700;
@@ -239,9 +238,12 @@ min-width: 835px;
 section.prodIntro{
 	clear: both;
 	float:left;
-	margin:0;
+	margin-left:0;
+	margin-right:0;
 	width:100%;
 	height:575px;
+	margin-top:0;
+	margin-bottom:0;
 	}
 
 .showcase{
@@ -393,9 +395,12 @@ p.homeIntro{
 	font-size:14pt;
 	line-height: 18pt;
 	color:#000;
-	margin: 50px auto 50px auto;
-	text-align:left;
-	max-width: 900px
+	float:left;
+	margin-top:.625em;
+	margin-left:1.25em;
+	margin-right:1.25em;
+	margin-bottom:1em;
+	text-align:justify
 	}
 
 .homeIntro a:link{
@@ -524,9 +529,9 @@ section.rbc{
 footer.other{
 	border-top-style: solid;
 	border-top-width: 10px;
-	border-top-color: #d71920;
+	border-top-color: red;
 	padding-top:10px;
-	margin:0;
+	margin-bottom:.125em;
 	width:100%;
 	min-width:835px;
 	clear:left;
@@ -1587,6 +1592,9 @@ p.address{
 	z-index:1000;
 	}
 
+header.mast{
+	height:100px;
+	}
 }
 
 @media screen and (min-width : 0px) and (max-width: 1250px) {
@@ -1601,6 +1609,9 @@ p.address{
 	z-index:1000;
 	}
 
+header.mast{
+	height:100px;
+	}
 
 
 
@@ -1618,16 +1629,22 @@ p.address{
 	z-index:1000;
 	}
 
+header .mast{
+	height:100px;
+	}
 
 p.prodDesc{
 	font-size: 15pt;
-	line-height: 19pt;
+	line-height: 17pt;
 }
 
 #masthead{
 	width:780px;
 }
 
+#enclosure{
+	width:835px;
+}
 
 h3.prodTag{
 	font-size:1.8em;

@@ -18,34 +18,41 @@
 	<script src="js/introSlider.js"></script>
 	<script src="anythingSlider/jQuery.anythingslider.min.js"></script>
 	<script type="text/javascript">var _gaq=_gaq || [];_gaq.push(['_setAccount', 'UA-40088675-1']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga, s);})();</script>
+	<script type="text/javascript">
+    function changeImage(a) {
+        document.getElementById("jsImageTarget").src=a;
+    }
+	</script>
 </head>
 <body>
-	<header class="mast" role="banner">
-<div id="masthead" itemscope="" itemtype="http://schema.org/LocalBusiness">
-	<div id="icon">
+<header class="mast" role="banner">
+	<div id="masthead" itemscope="" itemtype="http://schema.org/LocalBusiness">
 		<a href="index.html">
-			<img alt="Edwards Coin Logo" id="navImg" itemprop="logo" src="images/png/EDW_coinLogo.png" title="Home" />
+			<div id="icon" alt="Edwards Coin Logo" title="Home">	
+			</div>
 		</a>
+		<div id="social">
+			<a href="http://www.youtube.com/user/EdwardsMfgCo" target="_blank">
+				<div class="youImg" alt="YouTube"  title="Check out Edwards Manufacturing on YouTube!" />
+				</div>
+			</a>
+			<a href="https://twitter.com/#!/EdwardsMfgCo" target="_blank">
+				<div class="twiImg" alt="Twitter"  src="images/png/twitterButtonArt.	png" title="Follow @EdwardsMfgCo on Twitter!" />
+				</div>
+			</a>
+			<a href="https://www.facebook.com/pages/Edwards-Manufacturing-Company/423455224336993" target="_blank">
+				<div class="facImg" alt="Facebook"  src="images/png/facebookButtonArt.png" title="Follow Edwards on Facebook!" />
+				</div>
+			</a>
+			<p class="contact">
+				<a href="http://www.edwardsironworkers-latino.com/" target="_blank">EDWARDS EN ESPA&#209;OL</a> | 
+				<a href="promotional.html">PROMOTIONAL PARTNERS</a> | 
+				<a href="edwContact.html">CONTACT US</a>
+			</p>
+		</div>
 	</div>
-
-	<div id="social">
-		<a href="http://www.youtube.com/user/EdwardsMfgCo" target="_blank">
-			<img alt="YouTube button" class="socImg" src="images/png/yt-brand-standard-logo_47x20.png" title="Check out Edwards Manufacturing on YouTube!" />
-		</a>
-		<a href="https://twitter.com/#!/EdwardsMfgCo" target="_blank">
-			<img alt="Twitter button" class="socImg" src="images/png/twitterButtonArt.	png" title="Follow @EdwardsMfgCo on Twitter!" />
-		</a>
-		<a href="https://www.facebook.com/pages/Edwards-Manufacturing-Company/423455224336993" target="_blank">
-			<img alt="Facebook button" class="socImg" src="images/png/facebookButtonArt.png" title="Follow Edwards on Facebook!" />
-		</a>
-
-	<p class="contact">
-		<a href="http://www.edwardsironworkers-latino.com/" target="_blank">EDWARDS EN ESPA&#209;OL</a> | 
-		<a href="promotional.html">PROMOTIONAL PARTNERS</a> | 
-		<a href="edwContact.html">CONTACT US</a></p>
-	</div>
-</div>
-</header><div id="enclosure"><header id="navBar" role="banner"><nav role="navigation"><ul id="nav">
+</header>
+<header id="navBar" role="banner"><nav role="navigation"><ul id="nav">
 	<li><a href="ironworkerHome.html">Ironworkers</a>
 
 	<ul>
@@ -117,7 +124,7 @@
 			<li><a href="pedestalDieTable.html">Pedestal Die Table</a></li>
 			<li><a href="oversizePunch.html">Oversize Punch</a></li>
 			<li><a href="241punch.html">241 Punch</a></li>
-			<li><a href="quickchange.html">Quick Change</a></li>
+			<li><a href="quickChange.html">Quick Change</a></li>
 		</ul>
 		</li>
 		<li><a href="toolingAccHome.html#notch">Notch</a>
@@ -155,68 +162,69 @@
 </ul>
 </nav>
 </header>
+<div id="enclosure">
 <section class="product">
 	<h1 class="head">INDUSTRY ASSOCIATIONS & PROMOTIONAL PARTNERSHIPS </h1>
-	<div class="hzGallery">
+	<div class="gallery">
 
 		<p class="intro">Edwards Manufacturing actively works to promote our products worldwide. To that end Edwards Manufacturing is a member of several professional associations in the tooling and fabrication industries. Edwards also actively forms promotional partnerships with individuals and companies that use our products in interesting and innovative ways. Finally, Edwards Manufacturing actively promotes its products and supports its dealership at trade shows across the nation and internationally.<br><br><strong><em>Links will open in a new tab or window, depending on your browser.</em></strong></p>
 
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.sema.org/" target="_blank">
 				<img src="images/jpg/profAssociations/semaLogo.jpg" class="hzGalImg" alt="SEMA logo" title="SEMA - Specialty Equipment Market Association">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.stafda.org/" target="_blank">
 				<img src="images/jpg/profAssociations/stafdaLogo.jpg" class="hzGalImg" alt="STAFDA logo" title="STAFDA - Specialty Tools & Fasteners Distributors Association">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.sme.org/" target="_blank">
 				<img src="images/jpg/profAssociations/smeLogo.jpg" class="hzGalImg" alt="SME" title="SME - Society of Manufacturing Engineers">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.amtonline.org/" target="_blank">
 				<img src="images/jpg/profAssociations/amtLogo.jpg" class="hzGalImg" alt="AMT" title="AMT - The Association for Manufacturing Technology">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.aws.org" target="_blank">
 				<img src="images/png/profAssociations/aws_logo.png" class="hzGalImg" alt="AWS" title="AWS - American Welding Society">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.fabtechexpo.com/" target="_blank">
 				<img src="images/png/profAssociations/fabTechLogo.png" class="hzGalImg" alt="FabTech" title="FabTech - North America's Largest Metal Forming, Fabricating, Welding, and Finishing Event">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.imts.com/" target="_blank">
 				<img src="images/png/profAssociations/IMTS_noDates.png" class="hzGalImg" alt="IMTS" title="IMTS - International Manufacturing Technology Show">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.performanceracing.com/tradeshow/" target="_blank">
 				<img src="images/jpg/profAssociations/priLogo_red.jpg" class="hzGalImg" alt="PRI" title="PRI - Performance Racing Industry Trade Show">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://staceydavid.com/" target="_blank">
 				<img src="images/jpg/profAssociations/staceyDavidPromo.jpg" class="hzGalImg" alt="Stacey David" title="Stacey David's Gearz">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.thundercycle.com/" target="_blank">
 				<img src="images/png/profAssociations/eddieTrotta.png" class="hzGalImg" alt="Eddie Trotta's Thunder Cycle Design" title="Eddie Trotta's Thunder Cycle">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://www.gatewayclassicmustang.com/" target="_blank">
 				<img src="images/png/profAssociations/gcm_logo.png" class="hzGalImg" alt="Gateway Classic Mustang" title="Gateway Classic Mustang">
 			</a>
 		</div>
-		<div class="imgDiv">
+		<div class="prodDiv">
 			<a href="http://creation.redbullusa.com/" target="_blank">
 				<img src="images/png/profAssociations/redBullCreation_s.png" class="hzGalImg" alt="Red Bull Creation" title="Red Bull Creation">
 			</a>
@@ -225,6 +233,7 @@
 	<div id="emptyFoot">
 	</div>
 </section>
+</div>
 <footer class="other">
 <div id="compLinks">
 
@@ -266,6 +275,6 @@
 </span>
 </p>
 </footer>
-</div>
+
 </body>
 </html>

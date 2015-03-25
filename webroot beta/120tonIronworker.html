@@ -28,42 +28,42 @@
   })();
 
 </script>
+	<script type="text/javascript">
+    function changeImage(a) {
+        document.getElementById("jsImageTarget").src=a;
+    }
+	</script>
 </head>
 <body>
 <header class="mast" role="banner">
-<div id="masthead" itemscope="" itemtype="http://schema.org/LocalBusiness">
-	<div id="icon">
+	<div id="masthead" itemscope="" itemtype="http://schema.org/LocalBusiness">
 		<a href="index.html">
-			<img alt="Edwards Coin Logo" id="navImg" itemprop="logo" src="images/png/EDW_coinLogo.png" title="Home" />
+			<div id="icon" alt="Edwards Coin Logo" title="Home">	
+			</div>
 		</a>
+		<div id="social">
+			<a href="http://www.youtube.com/user/EdwardsMfgCo" target="_blank">
+				<div class="youImg" alt="YouTube"  title="Check out Edwards Manufacturing on YouTube!" />
+				</div>
+			</a>
+			<a href="https://twitter.com/#!/EdwardsMfgCo" target="_blank">
+				<div class="twiImg" alt="Twitter"  src="images/png/twitterButtonArt.	png" title="Follow @EdwardsMfgCo on Twitter!" />
+				</div>
+			</a>
+			<a href="https://www.facebook.com/pages/Edwards-Manufacturing-Company/423455224336993" target="_blank">
+				<div class="facImg" alt="Facebook"  src="images/png/facebookButtonArt.png" title="Follow Edwards on Facebook!" />
+				</div>
+			</a>
+			<p class="contact">
+				<a href="http://www.edwardsironworkers-latino.com/" target="_blank">EDWARDS EN ESPA&#209;OL</a> | 
+				<a href="promotional.html">PROMOTIONAL PARTNERS</a> | 
+				<a href="edwContact.html">CONTACT US</a>
+			</p>
+		</div>
 	</div>
-
-	<div id="social">
-		<a href="http://www.youtube.com/user/EdwardsMfgCo" target="_blank">
-			<img alt="YouTube button" class="socImg" src="images/png/yt-brand-standard-logo_47x20.png" title="Check out Edwards Manufacturing on YouTube!" />
-		</a>
-		<a href="https://twitter.com/#!/EdwardsMfgCo" target="_blank">
-			<img alt="Twitter button" class="socImg" src="images/png/twitterButtonArt.	png" title="Follow @EdwardsMfgCo on Twitter!" />
-		</a>
-		<a href="https://www.facebook.com/pages/Edwards-Manufacturing-Company/423455224336993" target="_blank">
-			<img alt="Facebook button" class="socImg" src="images/png/facebookButtonArt.png" title="Follow Edwards on Facebook!" />
-		</a>
-
-	<p class="contact">
-		<a href="http://www.edwardsironworkers-latino.com/" target="_blank">EDWARDS EN ESPA&#209;OL</a> | 
-		<a href="promotional.html">PROMOTIONAL PARTNERS</a> | 
-		<a href="edwContact.html">CONTACT US</a></p>
-	</div>
-</div>
 </header>
 
-<div id="enclosure">
-	<a href="100tonDIronworker.html">
-		<img alt="Prev Arrow" id="prvArrow" src="images/png/prvArrow.png" title="100 Ton Deluxe Ironworker" />
-	</a> 
-	<a href="ironworkerHome.html#elite">
-		<img alt="Next Arrow" id="nxtArrow" src="images/png/nxtArrow.png" title="Elite 110 Ironworker" />
-	</a> <!--		==IN TERMS OF NAVIGATION, THE HEADER - THE SOLID-COLOR BAR - IS TO BE USED FOR PRODUCT-CENTRIC NAVIGATION ON EDWARDS SITES.===		-->
+ <!--		==IN TERMS OF NAVIGATION, THE HEADER - THE SOLID-COLOR BAR - IS TO BE USED FOR PRODUCT-CENTRIC NAVIGATION ON EDWARDS SITES.===		-->
 
 <header id="navBar" role="banner">
 <nav role="navigation">
@@ -139,7 +139,7 @@
 			<li><a href="pedestalDieTable.html">Pedestal Die Table</a></li>
 			<li><a href="oversizePunch.html">Oversize Punch</a></li>
 			<li><a href="241punch.html">241 Punch</a></li>
-			<li><a href="quickchange.html">Quick Change</a></li>
+			<li><a href="quickChange.html">Quick Change</a></li>
 		</ul>
 		</li>
 		<li><a href="toolingAccHome.html#notch">Notch</a>
@@ -179,24 +179,65 @@
 </header>
 <!--		==THE GREAT MAJORITY OF EDWARDS' SITE PAGES WILL BE PRODUCT INFORMATION.  THE MAJOR (H2) HEADLINE OF THE PRODUCT SECTION IS THE PRODUCT NAME, FOLLOWED BY THE PRICE, FOLLOWED BY AN OH-SO-CLEVER TAGLINE(i.e. "THE WORKHORSE" or "THE SHOP STANDARD."  THAT APPEARS IN THE MAIN SECTION===		--> <!--		==3/26/12... An experiment in organizing information.  What I want to do is organize the information in tabbed panels.  03/27/12... the experiment has largely been successful; the interface looks good, except for dummy text and lack of video.  But layout looks good.===		-->
 
+<div id="enclosure">
+
 <section class="product" itemscope="" itemtype="http://schema.org/Product">
+
+<div class="arrowHolder">
+
+<a alt="Previous Item" title="100 Ton Deluxe Ironworker" href="100tonDIronworker.html">
+	<div class="arrowPrv"></div>
+		<div id="prvArrow">		
+			<img src="images/jpg/100tonDIW_thumb.jpg">
+			<p>
+			100 Ton Deluxe Jaws
+			</p>
+	</div>
+</a>
+
+<a alt="Next Item" title="Ironworker Home" href="ironworkerHome.html#elite">
+	<div class="arrowNxt"></div>
+		<div id="nxtArrow">		
+
+			<p>
+			Elite Ironworkers
+			</p>
+		</div>
+	
+</a>		
+
+
+</div>
+
 <h1 class="head" itemprop="name">120 TON IRONWORKER</h1>
 
-<h2 class="prodPrice" itemscope="" itemtype="http://schema.org/Offer"><span itemprop="price">$24,796</span></h2>
+
 
 <div class="tabbedPanels">
-<ul class="tabs">
-	<li><a href="#panel1" tabindex="1">Overview</a></li>
-	<li><a href="#panel2" tabindex="2">Specifications</a></li>
-	<li><a href="#panel3" tabindex="3">Specs - Metric</a></li>
-</ul>
+	<div class="tabsPrice">
+		<ul class="tabs">
+			<li><a href="#panel1" tabindex="1">Overview</a></li>
+			<li><a href="#panel2" tabindex="2">Specifications</a></li>
+			<li><a href="#panel3" tabindex="3">Specs - Metric</a></li>
+		</ul>
+		
+		<div class="prodPrice" itemscope="" itemtype="http://schema.org/Offer">
+			<span itemprop="price">$24,796</span>
+		</div>
+	</div>
+
 
 <div class="panelContainer">
 <div class="panel" id="panel1" itemscope="" itemtype="http://schema.org/Product">
-<div id="imgFrame">
-<div id="imgSlide"><!--	==6/29/12 FOR THE CORRECT PROPORTIONS OF THE PANEL & RELATIONSHIP BETWEEN PICTURE, TEXT, VIDEO AND RELATED PRODUCT SLIDE ET AL, THE MAX. WIDTH/HEIGHT OF THE IMAGE IS 490px (30.625em).==	--><img alt="120 Ton Ironworker" class="prodImg" height="490" itemprop="image" src="images/png/120ton_ds.png" width="490" /></div>
-</div>
 
+
+<div class="imageCase">
+<div id="imgFrame">
+
+	<!--	==6/29/12 FOR THE CORRECT PROPORTIONS OF THE PANEL & RELATIONSHIP BETWEEN PICTURE, TEXT, VIDEO AND RELATED PRODUCT SLIDE ET AL, THE MAX. WIDTH/HEIGHT OF THE IMAGE IS 490px (30.625em).==	-->
+	<img id="jsImageTarget" alt="120 Ton Ironworker" class="prodImg" itemprop="image" src="images/png/120ton_ds.png" />
+</div>
+</div>
 <div id="story"><!--	==A PRODUCT DESCRIPTION OF 150 WORDS MAX.  150 WORDS SHOULD PROVIDE A CONCISE DESCRIPTION OF THE PARTICULAR PRODUCT BEING VIEWED.  150 WORDS ALSO WORKS WITH THE CSS TO CREATE A RELATIVE BALANCE BETWEEN THE TEXT AND THE IMAGE.==	-->
 <h3 class="prodTag" itemprop="description">The Powerhouse</h3>
 
@@ -557,7 +598,7 @@ The optional <a href="hydAccPower.html">Hydraulic Accessory Pack</a> allows your
 </div>
 </section>
 <!--		==IN TERMS OF NAVIGATION, THE FOOTER IS TO BE USED FOR COMPANY-CENTRIC (HISTORY, PHILOSOPHY, NEWS) NAVIGATION ON EDWARDS SITES.===		-->
-
+</div>
 <footer class="other">
 <div id="compLinks">
 
@@ -599,6 +640,7 @@ The optional <a href="hydAccPower.html">Hydraulic Accessory Pack</a> allows your
 </span>
 </p>
 </footer>
-</div>
+
 </body>
 </html>
+		

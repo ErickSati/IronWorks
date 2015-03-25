@@ -83,30 +83,31 @@ a:active,a:hover{
 	}
 
 header.mast{
-	height:100px;
+	height:110px;
 	width:100%;
 	min-width:835px;
 	background-image: url("images/jpg/hammeredSteel.jpg");
 	}
 
 #masthead{
-	width:95.3%;
+	min-width: 800px;
+	max-width: 1200px;
+	width:98%;
 	margin:0 auto;
 	}
 
 #icon{
-	margin-left,margin-bottom:0;
-	margin-right:.625em
-	}
+	background-image: url("images/png/EDW_coinLogo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+height:150px;
+	width:150px;
 
-#navImg{
-	height:12em;
-	width:12em;
 	position: absolute;
 	float:left;
 	clear: both;
-	margin-left:-30px;
-	margin-top:0px;
+	margin-left:-10px;
+	margin-top:-5px;
 	z-index:1000;
 	}
 
@@ -115,32 +116,62 @@ header.mast{
 #social{
 	display: block;
 	float:right;
-	width:500px;
+	width:630px;
 	margin-top:40px;
 	margin-bottom: auto;
 	}
 
-.socImg{
+
+.facImg{
+	background-image: url("images/png/facebook30x30.png");
 	display: inline-block;
+	width:30px;
+	height:30px;
 	float:right;
 	margin-left: 5px;
 	vertical-align:middle;
 	}
 
+.twiImg{
+	background-image: url("images/png/twitter30x30.png");
+	display: inline-block;
+	width:30px;
+	height:30px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
+
+.youImg{
+	background-image: url("images/png/youtube30x30.png");
+	display: inline-block;
+	width:30px;
+	height:30px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
+
+
+
+
+
+
 p.contact{
 
 	display: inline-block;
 	font-family:Helvetica,Arial,sans-serif;
-	font-size:12px;
+	font-size:16px;
 	text-align:center;
 	color:#fff;
 	vertical-align:middle;
-	font-weight:400;
-	margin:5.5px 10px 0 0;
+	font-weight:100;
+	margin:9px 10px 0 0;
 	}
 
-.contact a{
-	color:#fff
+.contact a:link{
+	color:#fff;
+	font-weight: 100;
 	}
 
 .contact a:visited,.pFoot a:active,.pFoot,.pFoot a:hover{
@@ -268,8 +299,8 @@ p.intro{
 	margin: 20px 33px 20px 33px;
 	}
 .gallery .intro{
-	margin:0;
-
+	margin:0 0 30px 0;
+	max-width: 800px;
 }
 
 .testimonialCase{
@@ -596,7 +627,7 @@ h1.head {
 	
 	font-size:2.625em;
 	color:#000;
-	margin:30px 0px 30px 0px;
+	margin:50px 0px 50px 0px;
 	text-align:left;
 }
 
@@ -634,7 +665,7 @@ h1.head {
 	display: inline-block;
 	float:left;
 	min-height:18.0625em;
-	width:243px;
+	width:230px;
 	height:  350px;
 	background-color:#fff;
 	margin-top:0;
@@ -728,8 +759,8 @@ img.doGalImg{
 	opacity: 0.5;
 	float:left;
 	vertical-align: middle;
-	max-width:48px;
-	max-height:48px;
+	max-width:46px;
+	max-height:46px;
 }
 
 #prvArrow p {
@@ -782,8 +813,8 @@ a:hover #prvArrow p{
 	opacity: 0.5;
 	float:right;
 	vertical-align: middle;
-	max-width:48px;
-	max-height:48px;
+	max-width:46px;
+	max-height:46px;
 }
 
 #nxtArrow p {
@@ -1506,6 +1537,14 @@ h5{
  	border-bottom-color: #ed1c24;
 	}
 
+h5 a{
+	color:#404040;
+	}
+
+h5 a:hover{
+	color:#404040;
+	}
+
 hr.field{
 	max-width:90%;
 	height:.0625em;
@@ -1537,7 +1576,7 @@ p.address{
 	font-family:Helvetica,Arial,sans-serif;
 	text-align:center;
 	font-size:.875em;
-	color:#fff;
+	color:#000;
 	margin-top:.75em;
 	margin-bottom:1em;
 	}
@@ -1551,55 +1590,112 @@ p.address{
 
 @media screen and (min-width : 0px) and (max-width: 1500px) {
 
-#navImg{
-	height:140px;
-	width:140px;
-	float:left;
-	clear: both;
+#icon{
+	height:150px;
+	width:150px;
 	margin-left:-10px;
 	margin-top:-5px;
-	z-index:1000;
+	}
+
+header.mast{
+	height:110px;
 	}
 
 }
 
-@media screen and (min-width : 0px) and (max-width: 1250px) {
+@media screen and (min-width : 0px) and (max-width: 1200px) {
 
-#navImg{
-	height:120px;
-	width:120px;
-	float:left;
-	clear: both;
-	margin-left:0px;
-	margin-top:-4px;
-	z-index:1000;
+#icon{
+		background-image: url("images/png/edwards.png");
+	height:89px;
+	width:150px;
+	margin-left:-8px;
+	margin-top:3px;
+
+	}
+
+header.mast{
+	height:80px;
+	}
+
+#social{
+	display: block;
+	float:right;
+	width:470px;
+	margin-top:30px;
+	margin-bottom: auto;
+	}
+
+p.contact{
+	font-size:12px;
+	margin:5.5px 10px 0 0;
 	}
 
 
+.facImg{
+	background-image: url("images/png/facebookButtonArt.png");
+	display: inline-block;
+	width:20px;
+	height:20px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
 
+.twiImg{
+	background-image: url("images/png/twitterButtonArt.png");
+	display: inline-block;
+	width:20px;
+	height:20px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
+
+.youImg{
+	background-image: url("images/png/yt-brand-standard-logo_47x20.png");
+	display: inline-block;
+	width:20px;
+	height:20px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
+
+
+p.contact{
+
+	display: inline-block;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	color:#fff;
+	vertical-align:middle;
+	font-weight:100;
+	margin:5.5px 10px 0 0;
+	}
 
 }
+
+
 
 @media screen and (min-width : 0px) and (max-width: 1020px) {
 
-#navImg{
-	height:105px;
-	width:105px;
-	float:left;
-	clear: both;
+#icon{
+	background-image: url("images/png/edwards.png");
+	height:72px;
+	width:120px;
 	margin-left:0px;
-	margin-top:-3px;
-	z-index:1000;
+	margin-top:3px;
 	}
 
+header.mast{
+	height:80px;
+	}
 
 p.prodDesc{
 	font-size: 15pt;
 	line-height: 19pt;
-}
-
-#masthead{
-	width:780px;
 }
 
 

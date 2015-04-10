@@ -14,6 +14,19 @@
         document.getElementById("jsImageTarget").src=a;
     }
 	</script>
+	<script src='js/jquery.zoom.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('#ex1').zoom();
+		});
+	</script>
+
+	<script type="text/javascript">
+		function initializeZoom(a) {
+			var targetZoom = a;
+			$(targetZoom).zoom();
+		}
+	</script>
 </head>
 <body>
 <header class="mast" role="banner">
@@ -165,6 +178,8 @@
 
 <section class="product" itemscope="" itemtype="http://schema.org/Product">
 
+
+	
 <div class="arrowHolder">
 
 <a alt="Previous Item" title="Ironworker Home" href="ironworkerHome.html#jaws">
@@ -190,23 +205,21 @@
 
 
 </div>
-	
-<h1 class="head" itemprop="name">25 TON IRONWORKER</h1>
-
 
 
 <div class="tabbedPanels">
 
 	<div class="tabsPrice">
+		
+<h1 class="prodHead" itemprop="name">25 TON IRONWORKER</h1>
+
 		<ul class="tabs">
 			<li><a href="#panel1" tabindex="1">Overview</a></li>
 			<li><a href="#panel2" tabindex="2">Specifications</a></li>
 			<li><a href="#panel3" tabindex="3">Specs - Metric</a></li>
 		</ul>	
 
-		<div class="prodPrice" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-			<span itemprop="price">$5,296</span>
-		</div>
+		
 	</div>
 
 
@@ -216,12 +229,53 @@
 
 <div class="imageCase">
 
-<div id="imgFrame">
 
-<img id="jsImageTarget" alt="25 Ton Ironworker" class="prodImg" height="490" itemprop="image" src="images/jpg/25ton_ds.jpg" width="490" />
-</div>
+
+
+
+	<div id="ex1" >
+			<img  id="jsImageTarget" alt="50 Ton Ironworker" class="prodImg"  itemprop="image" src="images/jpg/25_1.jpg" onmouseover="initializeZoom('div#ex1')" />
+			<!--  -->
+	</div>
+			<div class="tinyImage">
+			<img src="images/jpg/25_1.jpg" onMouseOver='changeImage("images/jpg/25_1.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/25_2.jpg" onMouseOver='changeImage("images/jpg/25_2.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/25_3.jpg" onMouseOver='changeImage("images/jpg/25_3.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/25_4.jpg" onMouseOver='changeImage("images/jpg/25_4.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/25_5.jpg" onMouseOver='changeImage("images/jpg/25_5.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/25_6.jpg" onMouseOver='changeImage("images/jpg/25_6.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/25_7.jpg" onMouseOver='changeImage("images/jpg/25_7.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/25_8.jpg" onMouseOver='changeImage("images/jpg/25_8.jpg");'>
+		</div>
+	
 </div>
 <div id="story">
+
+<div class="prodPrice" itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+			<span itemprop="price">$5,296</span>
+		</div>
+
 <h3 class="prodTag" itemprop="description">Ideal for the Hobbyist</h3>
 
 <ul class="specList">
@@ -493,6 +547,9 @@ Add the versatile <a href="multiShear.html">Multi-Shear</a> (as shown) to handle
 <p class="specD"><a href="images/pdf/25ton_sell_metric.pdf">Click to View Metric Spec Sheet</a></p>
 </div>
 </div>
+
+
+
 </div>
 </div>
 </section>

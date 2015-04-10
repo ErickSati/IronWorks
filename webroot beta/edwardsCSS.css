@@ -627,8 +627,17 @@ h1.head {
 	
 	font-size:2.625em;
 	color:#000;
-	margin:50px 0px 50px 0px;
+	margin:50px 0px 20px 0px;
 	text-align:left;
+}
+
+h1.prodHead{
+	font-family:"Copperplate Gothic Bold",Copperplate,Helvetica,Arial,sans-serif;
+	font-size:2.625em;
+	color:#000;
+	margin:10px 0px 10px 0px;
+	text-align:left;
+	float:left;
 }
 
 .gallery{
@@ -869,7 +878,7 @@ h2{
 .prodPrice{
 
 	display: inline-block;
-	float: right;
+	
 	font-family:Helvetica,Arial,sans-serif;
 	font-size:3.125em;
 	color:#ed1c24;
@@ -894,7 +903,7 @@ h2.prodPrice2{
 
 .tabsPrice .tabs{
 	display: inline-block;
-	float:left;
+	float:right;
 	margin:0;
 	padding: 20px 0 0 0;
 	zoom:1;

@@ -83,30 +83,31 @@ a:active,a:hover{
 	}
 
 header.mast{
-	height:60px;
+	height:110px;
 	width:100%;
 	min-width:835px;
 	background-image: url("images/jpg/hammeredSteel.jpg");
 	}
 
 #masthead{
-	width:95.3%;
+	min-width: 800px;
+	max-width: 1200px;
+	width:98%;
 	margin:0 auto;
 	}
 
 #icon{
-	margin-left,margin-bottom:0;
-	margin-right:.625em
-	}
+	background-image: url("images/png/EDW_coinLogo.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+height:150px;
+	width:150px;
 
-#navImg{
-	height:14em;
-	width:14em;
 	position: absolute;
 	float:left;
 	clear: both;
-	margin-left:-234px;
-	margin-top:0px;
+	margin-left:-10px;
+	margin-top:-5px;
 	z-index:1000;
 	}
 
@@ -115,32 +116,62 @@ header.mast{
 #social{
 	display: block;
 	float:right;
-	width:500px;
+	width:630px;
 	margin-top:40px;
 	margin-bottom: auto;
 	}
 
-.socImg{
+
+.facImg{
+	background-image: url("images/png/facebook30x30.png");
 	display: inline-block;
+	width:30px;
+	height:30px;
 	float:right;
 	margin-left: 5px;
 	vertical-align:middle;
 	}
 
+.twiImg{
+	background-image: url("images/png/twitter30x30.png");
+	display: inline-block;
+	width:30px;
+	height:30px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
+
+.youImg{
+	background-image: url("images/png/youtube30x30.png");
+	display: inline-block;
+	width:30px;
+	height:30px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
+
+
+
+
+
+
 p.contact{
 
 	display: inline-block;
 	font-family:Helvetica,Arial,sans-serif;
-	font-size:12px;
+	font-size:16px;
 	text-align:center;
 	color:#fff;
 	vertical-align:middle;
-	font-weight:400;
-	margin:5.5px 10px 0 0;
+	font-weight:100;
+	margin:9px 10px 0 0;
 	}
 
-.contact a{
-	color:#fff
+.contact a:link{
+	color:#fff;
+	font-weight: 100;
 	}
 
 .contact a:visited,.pFoot a:active,.pFoot,.pFoot a:hover{
@@ -168,10 +199,11 @@ nav{
 #navBar{
 	margin: 0 0 0 0;
 	padding-left: 0px;
-	background:#b6191f;
-	height:1.875em;
+	background:#d71920;
+	height:32px;
 	position:relative;
 width: 100%;
+min-width: 835px;
 	z-index:10;
 
 	}
@@ -203,7 +235,7 @@ width: 100%;
 	}
 
 #nav a{
-	background:#b6191f;
+	background:#d71920;
 	text-decoration:none;
 	font-family:Helvetica,Arial,sans-serif;
 	font-weight:700;
@@ -235,15 +267,12 @@ width: 100%;
 	color:#000
 	}
 
-section.prodIntro{
+.prodIntro{
 	clear: both;
 	float:left;
-	margin-left:0;
-	margin-right:0;
+	margin:0;
 	width:100%;
-	height:575px;
-	margin-top:0;
-	margin-bottom:0;
+	height:inherit;
 	}
 
 .showcase{
@@ -269,6 +298,10 @@ p.intro{
 	color:#000;
 	margin: 20px 33px 20px 33px;
 	}
+.gallery .intro{
+	margin:0 0 30px 0;
+	max-width: 800px;
+}
 
 .testimonialCase{
 	min-height:200px;
@@ -395,12 +428,9 @@ p.homeIntro{
 	font-size:14pt;
 	line-height: 18pt;
 	color:#000;
-	float:left;
-	margin-top:.625em;
-	margin-left:1.25em;
-	margin-right:1.25em;
-	margin-bottom:1em;
-	text-align:justify
+	margin: 50px auto 50px auto;
+	text-align:justify;
+	max-width: 800px
 	}
 
 .homeIntro a:link{
@@ -432,10 +462,11 @@ section.homeIntro{
 	}
 
 .redBullImg{
+	display: block;
 	width:25em;
 	height:10.5625em;
-	float:left;
-	margin-left:19.375em;
+	margin-left:auto;
+	margin-right: auto;
 	margin-bottom:1.25em
 	}
 
@@ -460,8 +491,8 @@ section.homeIntro{
 .rbcStamp{
 	margin-left:1em;
 	margin-right:1em;
-	height:7.5em;
-	width:7.5em
+	height:7em;
+	width:7em
 	}
 
 section.rbc{
@@ -496,10 +527,11 @@ section.rbc{
 	}
 
 .gearzImg{
+	display: block;
 	width:25em;
 	height:10.375em;
-	float:left;
-	margin-left:19.375em;
+	margin-left:auto;
+	margin-right: auto;
 	margin-bottom:1.25em
 	}
 
@@ -529,9 +561,9 @@ section.rbc{
 footer.other{
 	border-top-style: solid;
 	border-top-width: 10px;
-	border-top-color: red;
+	border-top-color: #d71920;
 	padding-top:10px;
-	margin-bottom:.125em;
+	margin:0;
 	width:100%;
 	min-width:835px;
 	clear:left;
@@ -539,40 +571,16 @@ footer.other{
 	}
 
 #compLinks{
- 	display: flex;
-	flex-direction: row;
-	 justify-content:space-around;
-	width:100%;
-	margin-top:15px;
-	margin-bottom:.125em;
+	width:835px;
+	margin:15px auto 15px auto;
 	min-height:2em;
-	background-image: url("images/jpg/hammeredSteel.jpg");
 	}
 
-#specialLk{
-	float:left;
-	margin-left:1.5625em;
-	clear:left;
-	vertical-align:top
+.coLinkImg{
+	display: inline-block;
+	margin: 0 28px 0 28px;
 	}
 
-#espLk{
-	float:right;
-	margin-right:5.40625em;
-	vertical-align:top
-	}
-
-#truChkLk{
-	float:right;
-	margin-right:6.09375em;
-	vertical-align:top
-	}
-
-#miaLk{
-	float:right;
-	margin-right:1.5625em;
-	vertical-align:top
-	}
 
 p.copyright{
 	margin:0;
@@ -581,7 +589,6 @@ p.copyright{
 	color:#fff;
 	padding-top:10px;
 	padding-bottom:10px;
-
 	line-height:180%;
 	text-align:center;
 	text-decoration:none;
@@ -589,9 +596,8 @@ p.copyright{
 	}
 
 .copyright a:link{
-	color:#fff;:
-	font-weight;:
-	normal;
+	color:#fff;
+	font-weight:normal;
 	text-decoration:none
 	}
 
@@ -603,14 +609,13 @@ p.copyright{
 
 section.product{
 	display:inline-block;
-	margin: auto;
-	margin-left:1.5em;
-	width:95.3%;
+	margin: 0 2% 0 2%;
+	width:96%;
 	}
+
 
 h1{
 	font-family:"Copperplate Gothic Bold",Copperplate,Helvetica,Arial,sans-serif;
-
 	font-size:2.625em;
 	color:#000;
 	margin:.25em 0em .25em 0em;
@@ -622,19 +627,14 @@ h1.head {
 	
 	font-size:2.625em;
 	color:#000;
-	margin:30px 0px 30px 0px;
+	margin:50px 0px 20px 0px;
 	text-align:left;
 }
 
 .gallery{
-	float:left;
-	padding-top:0;
-	padding-bottom:.25em;
+	padding:0;
 	margin:0;
-	margin-top:0;
-	margin-bottom:.75em;
 	width:100%;
-	min-height:8em;
 	background-color:#fff;
 	}
 
@@ -642,7 +642,7 @@ h1.head {
 	display: inline-block;
 	float:left;
 	min-height:18.0625em;
-	width:243px;
+	width:230px;
 	height:  289px;
 	background-color:#fff;
 	margin-top:0;
@@ -665,7 +665,7 @@ h1.head {
 	display: inline-block;
 	float:left;
 	min-height:18.0625em;
-	width:243px;
+	width:230px;
 	height:  350px;
 	background-color:#fff;
 	margin-top:0;
@@ -759,8 +759,8 @@ img.doGalImg{
 	opacity: 0.5;
 	float:left;
 	vertical-align: middle;
-	max-width:48px;
-	max-height:48px;
+	max-width:46px;
+	max-height:46px;
 }
 
 #prvArrow p {
@@ -813,8 +813,8 @@ a:hover #prvArrow p{
 	opacity: 0.5;
 	float:right;
 	vertical-align: middle;
-	max-width:48px;
-	max-height:48px;
+	max-width:46px;
+	max-height:46px;
 }
 
 #nxtArrow p {
@@ -1257,14 +1257,14 @@ p.disclaimer{
 	}
 
 	#featuredImg a:link{
-	color:#000;
+	color:#fff;
 	text-decoration:none;
 	font-weight:700;
 	margin-bottom:0;
 	}
 
 #featuredImg a:visited,a:active,a:hover{
-	color:#000;
+	color:#fff;
 	text-decoration:none;
 	margin-bottom:0;
 	}
@@ -1531,10 +1531,18 @@ h5{
 	font-family:Helvetica,Arial,sans-serif;
 	font-size:30px;
 	color:#404040;
-	margin:30px 33px 30px 34px;
+	margin:30px 0px 30px 0px;
 	text-align:left;
  	border-bottom-style: solid;
  	border-bottom-color: #ed1c24;
+	}
+
+h5 a{
+	color:#404040;
+	}
+
+h5 a:hover{
+	color:#404040;
 	}
 
 hr.field{
@@ -1568,7 +1576,7 @@ p.address{
 	font-family:Helvetica,Arial,sans-serif;
 	text-align:center;
 	font-size:.875em;
-	color:#fff;
+	color:#000;
 	margin-top:.75em;
 	margin-bottom:1em;
 	}
@@ -1582,73 +1590,123 @@ p.address{
 
 @media screen and (min-width : 0px) and (max-width: 1500px) {
 
-#navImg{
-	height:140px;
-	width:140px;
-	float:left;
-	clear: both;
+#icon{
+	height:150px;
+	width:150px;
 	margin-left:-10px;
 	margin-top:-5px;
-	z-index:1000;
 	}
 
 header.mast{
-	height:100px;
+	height:110px;
 	}
+
 }
 
-@media screen and (min-width : 0px) and (max-width: 1250px) {
+@media screen and (min-width : 0px) and (max-width: 1200px) {
 
-#navImg{
-	height:120px;
-	width:120px;
-	float:left;
-	clear: both;
-	margin-left:0px;
-	margin-top:-4px;
-	z-index:1000;
+#icon{
+		background-image: url("images/png/edwards.png");
+	height:89px;
+	width:150px;
+	margin-left:-8px;
+	margin-top:3px;
+
 	}
 
 header.mast{
-	height:100px;
+	height:80px;
+	}
+
+#social{
+	display: block;
+	float:right;
+	width:470px;
+	margin-top:30px;
+	margin-bottom: auto;
+	}
+
+p.contact{
+	font-size:12px;
+	margin:5.5px 10px 0 0;
 	}
 
 
+.facImg{
+	background-image: url("images/png/facebookButtonArt.png");
+	display: inline-block;
+	width:20px;
+	height:20px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
+
+.twiImg{
+	background-image: url("images/png/twitterButtonArt.png");
+	display: inline-block;
+	width:20px;
+	height:20px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
+
+.youImg{
+	background-image: url("images/png/yt-brand-standard-logo_47x20.png");
+	display: inline-block;
+	width:20px;
+	height:20px;
+	float:right;
+	margin-left: 5px;
+	vertical-align:middle;
+	}
+
+
+p.contact{
+
+	display: inline-block;
+	font-family:Helvetica,Arial,sans-serif;
+	font-size:12px;
+	text-align:center;
+	color:#fff;
+	vertical-align:middle;
+	font-weight:100;
+	margin:5.5px 10px 0 0;
+	}
 
 }
+
+
 
 @media screen and (min-width : 0px) and (max-width: 1020px) {
 
-#navImg{
-	height:105px;
-	width:105px;
-	float:left;
-	clear: both;
+#icon{
+	background-image: url("images/png/edwards.png");
+	height:72px;
+	width:120px;
 	margin-left:0px;
-	margin-top:-3px;
-	z-index:1000;
+	margin-top:3px;
 	}
 
-header .mast{
-	height:100px;
+header.mast{
+	height:80px;
 	}
 
 p.prodDesc{
 	font-size: 15pt;
-	line-height: 17pt;
+	line-height: 19pt;
 }
 
-#masthead{
-	width:780px;
-}
-
-#enclosure{
-	width:835px;
-}
 
 h3.prodTag{
 	font-size:1.8em;
 	}
+
+section.prodIntro{
+	
+
+}
 
 
 }

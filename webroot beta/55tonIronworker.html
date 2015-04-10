@@ -17,7 +17,10 @@
 	<script type="text/javascript">var _gaq=_gaq || [];_gaq.push(['_setAccount', 'UA-40088675-1']);_gaq.push(['_trackPageview']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga, s);})();</script>
 	<script type="text/javascript">
     function changeImage(a) {
-        document.getElementById("jsImageTarget").src=a;
+    	var bigImage = document.getElementById("jsImageTarget")
+        bigImage.src=a;
+        var passToZoom = bigImage.parentNode;
+        initializeZoom(passToZoom);
     }
 	</script>
 	<script src='js/jquery.zoom.js'></script>
@@ -25,6 +28,13 @@
 		$(document).ready(function(){
 			$('#ex1').zoom();
 		});
+	</script>
+
+	<script type="text/javascript">
+		function initializeZoom(a) {
+			var targetZoom = a;
+			$(targetZoom).zoom();
+		}
 	</script>
 
 </head>
@@ -226,41 +236,40 @@
 
 
 
-	<div id="imgFrame">
-			<span  id='ex1'>
-			<img  id="jsImageTarget" alt="50 Ton Ironworker" class="prodImg"  itemprop="image" src="images/jpg/rotationFront.jpg"  />
-			</span>
+	<div id="ex1" >
+			<img  id="jsImageTarget" alt="50 Ton Ironworker" class="prodImg"  itemprop="image" src="images/jpg/55_1.jpg" onmouseover="initializeZoom('div#ex1')" />
+			<!--  -->
 	</div>
 			<div class="tinyImage">
-			<img src="images/jpg/rotationFront.jpg" onMouseOver='changeImage("images/jpg/rotationFront.jpg");'>
+			<img src="images/jpg/55_1.jpg" onMouseOver='changeImage("images/jpg/55_1.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationFrontRight.jpg" onMouseOver='changeImage("images/jpg/rotationFrontRight.jpg");'>
+			<img src="images/jpg/55_2.jpg" onMouseOver='changeImage("images/jpg/55_2.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationRight.jpg" onMouseOver='changeImage("images/jpg/rotationRight.jpg");'>
+			<img src="images/jpg/55_3.jpg" onMouseOver='changeImage("images/jpg/55_3.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationBackRight.jpg" onMouseOver='changeImage("images/jpg/rotationBackRight.jpg");'>
+			<img src="images/jpg/55_4.jpg" onMouseOver='changeImage("images/jpg/55_4.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationBack.jpg" onMouseOver='changeImage("images/jpg/rotationBack.jpg");'>
+			<img src="images/jpg/55_5.jpg" onMouseOver='changeImage("images/jpg/55_5.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationBackLeft.jpg" onMouseOver='changeImage("images/jpg/rotationBackLeft.jpg");'>
+			<img src="images/jpg/55_6.jpg" onMouseOver='changeImage("images/jpg/55_6.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationLeft.jpg" onMouseOver='changeImage("images/jpg/rotationLeft.jpg");'>
+			<img src="images/jpg/55_7.jpg" onMouseOver='changeImage("images/jpg/55_7.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationFrontLeft.jpg" onMouseOver='changeImage("images/jpg/rotationFrontLeft.jpg");'>
+			<img src="images/jpg/55_8.jpg" onMouseOver='changeImage("images/jpg/55_8.jpg");'>
 		</div>
 	
 </div>

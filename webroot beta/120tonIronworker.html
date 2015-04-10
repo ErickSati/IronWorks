@@ -33,6 +33,21 @@
         document.getElementById("jsImageTarget").src=a;
     }
 	</script>
+<script src='js/jquery.zoom.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('#ex1').zoom();
+		});
+	</script>
+
+	<script type="text/javascript">
+		function initializeZoom(a) {
+			var targetZoom = a;
+			$(targetZoom).zoom();
+		}
+	</script>
+
+
 </head>
 <body>
 <header class="mast" role="banner">
@@ -232,11 +247,47 @@
 
 
 <div class="imageCase">
-<div id="imgFrame">
 
-	<!--	==6/29/12 FOR THE CORRECT PROPORTIONS OF THE PANEL & RELATIONSHIP BETWEEN PICTURE, TEXT, VIDEO AND RELATED PRODUCT SLIDE ET AL, THE MAX. WIDTH/HEIGHT OF THE IMAGE IS 490px (30.625em).==	-->
-	<img id="jsImageTarget" alt="120 Ton Ironworker" class="prodImg" itemprop="image" src="images/png/120ton_ds.png" />
-</div>
+
+
+
+
+	<div id="ex1" >
+			<img  id="jsImageTarget" alt="50 Ton Ironworker" class="prodImg"  itemprop="image" src="images/jpg/120__0000_1.jpg" onmouseover="initializeZoom('div#ex1')" />
+			<!--  -->
+	</div>
+			<div class="tinyImage">
+			<img src="images/jpg/120__0000_1.jpg" onMouseOver='changeImage("images/jpg/120__0000_1.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/120__0007_8.jpg" onMouseOver='changeImage("images/jpg/120__0007_8.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/120__0006_7.jpg" onMouseOver='changeImage("images/jpg/120__0006_7.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/120__0005_6.jpg" onMouseOver='changeImage("images/jpg/120__0005_6.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/120__0004_5.jpg" onMouseOver='changeImage("images/jpg/120__0004_5.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/120__0003_4.jpg" onMouseOver='changeImage("images/jpg/120__0003_4.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/120__0002_3.jpg" onMouseOver='changeImage("images/jpg/120__0002_3.jpg");'>
+		</div>
+	
+		<div class="tinyImage">
+			<img src="images/jpg/120__0001_2.jpg" onMouseOver='changeImage("images/jpg/120__0001_2.jpg");'>
+		</div>
+	
 </div>
 <div id="story"><!--	==A PRODUCT DESCRIPTION OF 150 WORDS MAX.  150 WORDS SHOULD PROVIDE A CONCISE DESCRIPTION OF THE PARTICULAR PRODUCT BEING VIEWED.  150 WORDS ALSO WORKS WITH THE CSS TO CREATE A RELATIVE BALANCE BETWEEN THE TEXT AND THE IMAGE.==	-->
 <h3 class="prodTag" itemprop="description">The Powerhouse</h3>

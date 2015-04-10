@@ -21,6 +21,19 @@
         document.getElementById("jsImageTarget").src=a;
     }
 </script>
+<script src='js/jquery.zoom.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('#ex1').zoom();
+		});
+	</script>
+
+	<script type="text/javascript">
+		function initializeZoom(a) {
+			var targetZoom = a;
+			$(targetZoom).zoom();
+		}
+	</script>
 	<!-- ################################# -->
 </head>
 <body>
@@ -228,39 +241,40 @@
 
 
 
-	<div id="imgFrame">
-			<img id="jsImageTarget" alt="40 Ton Ironworker" class="prodImg"  itemprop="image" src="images/jpg/rotationFront.jpg"  />
+	<div id="ex1" >
+			<img  id="jsImageTarget" alt="50 Ton Ironworker" class="prodImg"  itemprop="image" src="images/jpg/40_1.jpg" onmouseover="initializeZoom('div#ex1')" />
+			<!--  -->
 	</div>
 			<div class="tinyImage">
-			<img src="images/jpg/rotationFront.jpg" onMouseOver='changeImage("images/jpg/rotationFront.jpg");'>
+			<img src="images/jpg/40_1.jpg" onMouseOver='changeImage("images/jpg/40_1.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationFrontRight.jpg" onMouseOver='changeImage("images/jpg/rotationFrontRight.jpg");'>
+			<img src="images/jpg/40_2.jpg" onMouseOver='changeImage("images/jpg/40_2.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationRight.jpg" onMouseOver='changeImage("images/jpg/rotationRight.jpg");'>
+			<img src="images/jpg/40_3.jpg" onMouseOver='changeImage("images/jpg/40_3.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationBackRight.jpg" onMouseOver='changeImage("images/jpg/rotationBackRight.jpg");'>
+			<img src="images/jpg/40_4.jpg" onMouseOver='changeImage("images/jpg/40_4.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationBack.jpg" onMouseOver='changeImage("images/jpg/rotationBack.jpg");'>
+			<img src="images/jpg/40_5.jpg" onMouseOver='changeImage("images/jpg/40_5.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationBackLeft.jpg" onMouseOver='changeImage("images/jpg/rotationBackLeft.jpg");'>
+			<img src="images/jpg/40_6.jpg" onMouseOver='changeImage("images/jpg/40_6.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationLeft.jpg" onMouseOver='changeImage("images/jpg/rotationLeft.jpg");'>
+			<img src="images/jpg/40_7.jpg" onMouseOver='changeImage("images/jpg/40_7.jpg");'>
 		</div>
 	
 		<div class="tinyImage">
-			<img src="images/jpg/rotationFrontLeft.jpg" onMouseOver='changeImage("images/jpg/rotationFrontLeft.jpg");'>
+			<img src="images/jpg/40_8.jpg" onMouseOver='changeImage("images/jpg/40_8.jpg");'>
 		</div>
 	
 </div>

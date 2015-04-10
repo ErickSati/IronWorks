@@ -20,6 +20,19 @@
         document.getElementById("jsImageTarget").src=a;
     }
 	</script>
+	<script src='js/jquery.zoom.js'></script>
+	<script>
+		$(document).ready(function(){
+			$('#ex1').zoom();
+		});
+	</script>
+
+	<script type="text/javascript">
+		function initializeZoom(a) {
+			var targetZoom = a;
+			$(targetZoom).zoom();
+		}
+	</script>
 </head>
 <body>
 <header class="mast" role="banner">
@@ -194,7 +207,7 @@
 
 </div>
 
-<h1 class="head" itemprop="name">100 TON DELUXE IRONWORKER</h1>
+<h1 class="prodHead" itemprop="name">100 TON DELUXE IRONWORKER</h1>
 
 
 
@@ -206,7 +219,7 @@
 	<li><a href="#panel3" tabindex="3">Specs - Metric</a></li>
 </ul>
 
-<div class="prodPrice" itemscope="" itemtype="http://schema.org/Offer"><span itemprop="price">$22,496</span></div>
+
 </div>
 
 <div class="panelContainer">
@@ -258,6 +271,7 @@
 
 
 <div id="story">
+	<div class="prodPrice" itemscope="" itemtype="http://schema.org/Offer"><span itemprop="price">$22,496</span></div>
 <h3 class="prodTag" itemprop="description">Ideal for the Large Shop</h3>
 
 <ul class="specList">

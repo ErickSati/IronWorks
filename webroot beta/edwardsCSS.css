@@ -10,7 +10,8 @@ body{
 	max-width: 1200px;
 	min-width: 835px;
 	width:100%;
-	margin:auto;
+	margin-left:auto;
+	margin-right: auto;
 	background-color: white;
 	
 	}
@@ -609,8 +610,8 @@ p.copyright{
 
 section.product{
 	display:inline-block;
-	margin: 0 2% 0 2%;
-	width:96%;
+	margin: 0 5% 0 5%;
+	width:90%;
 	}
 
 
@@ -631,13 +632,13 @@ h1.head {
 	text-align:left;
 }
 
-h1.prodHead{
-	font-family:"Copperplate Gothic Bold",Copperplate,Helvetica,Arial,sans-serif;
-	font-size:2.625em;
+.prodHead{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size:50px;
 	color:#000;
 	margin:10px 0px 10px 0px;
 	text-align:left;
-	float:left;
+
 }
 
 .gallery{
@@ -651,7 +652,7 @@ h1.prodHead{
 	display: inline-block;
 	float:left;
 	min-height:18.0625em;
-	width:230px;
+	width:200px;
 	height:  289px;
 	background-color:#fff;
 	margin-top:0;
@@ -880,8 +881,8 @@ h2{
 	display: inline-block;
 	
 	font-family:Helvetica,Arial,sans-serif;
-	font-size:3.125em;
-	color:#ed1c24;
+	font-size:40px;
+	color:#000;
 	position: relative;
 	font-weight: 900;
 	}
@@ -903,9 +904,9 @@ h2.prodPrice2{
 
 .tabsPrice .tabs{
 	display: inline-block;
-	float:right;
-	margin:0;
-	padding: 20px 0 0 0;
+	float:left;
+	margin:20px 0 20px 0;
+	padding:0;
 	zoom:1;
 	position: relative;
 	bottom: 0;
@@ -916,7 +917,7 @@ h2.prodPrice2{
 	font-weight:700;
 	font-size:1.125em;
 
-	color:#000;
+	color:#939598;
 	float:left;
 	list-style:none;
 
@@ -925,12 +926,18 @@ h2.prodPrice2{
 .tabs a{
 	text-decoration:none;
 
-	color:#000;
+	color:#939598;
 	padding:0px 10px 10px 10px;
 	background-color:rgba(255,255,255,.45)
 	}
 
 .tabs a.active{
+	border-bottom:.0625em solid #d71920;
+	background-color:#fff;
+	color:#ed1c24;
+	}
+
+.tabs li a:hover{
 	border-bottom:.0625em solid #d71920;
 	background-color:#fff;
 	color:#ed1c24;
@@ -979,8 +986,9 @@ h2.prodPrice2{
 .imageCase{
 	display: inline-block;
 	margin: 0 auto 0 auto;
-	width:47%;
-	margin-right:2%;
+	width:40%;
+	margin-left:0%;
+	margin-right:0%;
 	max-height:800px;
 
 }
@@ -1011,9 +1019,10 @@ img.prodImg{
 
 #story{
 	float:right;
-	width:47%;
-	margin-top:.75em;
-margin-left: 2%;
+	width:50%;
+	margin-top:15px;
+margin-left: 0%;
+margin-right: 5%;
 	margin-bottom:.75em;
 	min-height:10em;
 	position:relative;
@@ -1022,12 +1031,11 @@ margin-left: 2%;
 
 h3.prodTag{
 	font-family:Helvetica,Arial,sans-serif;
-	font-size:1.5em;
+	font-size:30px;
 	color:#ed1c24;
 	font-weight:700;
-	margin-left:0;
-	margin-bottom:.75em;
-	margin-top:0;
+	margin-bottom:10px;
+	margin-top:10px;
 	clear:right;
 	vertical-align:top;
 	text-align:left
@@ -1066,8 +1074,9 @@ h3.prodTag{
 
 .specTable{
 	float:left;
-	width:30.8125%;
-	margin:.75em;
+	width:30%;
+	margin-right:1.5%;
+	margin-left: 1.5%;
 	}
 
 p.prodDesc{
@@ -1287,9 +1296,7 @@ p.disclaimer{
 
 .specThumb{
 	text-align:center;
-	height:13.125em;
-	width:17em;
-	margin-left:4.515%;
+	width:100%;
 	margin-top:.9375em
 	}
 
@@ -1684,6 +1691,9 @@ p.contact{
 	margin:5.5px 10px 0 0;
 	}
 
+
+
+
 }
 
 
@@ -1712,10 +1722,15 @@ h3.prodTag{
 	font-size:1.8em;
 	}
 
-section.prodIntro{
-	
+section.product{
+	display:inline-block;
+	margin: 0 1% 0 1%;
+	width:98%;
+	}
 
-}
+
+
+
 
 
 }
